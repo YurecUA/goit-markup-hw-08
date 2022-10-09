@@ -1,0 +1,36 @@
+// Utils
+
+@import './utils/variables';
+@import './utils/reset';
+@import './utils/common';
+
+// Header
+
+@import './components/header';
+@import './components/mobile-menu';
+@import './components/header-socials';
+@import './components/header-navigation';
+@import './components/header-contacts';
+
+// Main index.html
+
+@import './components/hero';
+@import './components/features';
+@import './components/about';
+@import './components/team';
+@import './components/clients';
+
+// Main portfolio.html
+
+@import './components/filter';
+@import './components/products';
+
+// Footer
+
+@import './components/footer';
+@import './components/footer-subscribe';
+@import './components/footer-socials';
+
+// Modal
+
+@import './components/modal';

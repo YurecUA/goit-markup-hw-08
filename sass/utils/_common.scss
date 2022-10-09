@@ -1,0 +1,46 @@
+body {
+    font-family: $main-font;
+    font-size: 14px;
+    font-weight: 500;
+    color: $main-color;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media screen and (min-width:480px) and (max-width:767px) {
+        max-width: 480px;
+
+    }
+
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        width: 768px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 1200px;
+    }
+
+
+}
+
+.visually-hidden {
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}

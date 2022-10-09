@@ -1,0 +1,48 @@
+.about {
+    padding-bottom: 94px;
+
+    @media screen and (max-width:1200px) {
+        display: none;
+    }
+}
+
+.about__title {
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.about__list {
+    display: flex;
+    gap: 30px;
+}
+
+.about__item {
+    position: relative;
+}
+
+.about__overlay {
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 70px;
+    width: 100%;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.about__text {
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $accessory-color;
+}

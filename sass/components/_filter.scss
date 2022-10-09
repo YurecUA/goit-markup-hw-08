@@ -1,0 +1,41 @@
+.filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 8px;
+
+    padding-bottom: 40px;
+
+    @media screen and (min-width:768px) {
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    @media screen and (min-width:1200px) {
+        padding-bottom: 50px;
+    }
+
+}
+
+.filter-list__button {
+    padding: 6px 25px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    letter-spacing: 0.03em;
+
+    color: $main-color;
+    background-color: $icon-background;
+    border-radius: 4px;
+    border: none;
+    transition: color $cubic 250ms, background-color $cubic 250ms, box-shadow cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    cursor: pointer;
+
+    &:focus,
+    &:hover {
+        color: $accessory-color;
+        background-color: $hover-color;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+}
