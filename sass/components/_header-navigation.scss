@@ -1,5 +1,5 @@
 .navigation {
-    font-size: 40px;
+  font-size: 40px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -39,7 +39,7 @@
     @media screen and (min-width: 768px) {
       &::after {
         position: absolute;
-        content: '';
+        content: "";
         display: block;
         bottom: -1px;
         width: 100%;

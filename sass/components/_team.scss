@@ -1,121 +1,121 @@
 .team {
-    padding-bottom: 60px;
-    padding-top: 60px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 
-    background-color: $icon-background;
+  background-color: $icon-background;
 
-    @media screen and (min-width: 1200px) {
-        padding-bottom: 94px;
-        padding-top: 94px;
-    }
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
 }
 
 .team__title {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 
-    font-size: 28px;
-    line-height: calc(33/28);
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-size: 28px;
+  line-height: calc(33 / 28);
+  text-align: center;
+  letter-spacing: 0.03em;
 
-    color: $main-color;
+  color: $main-color;
 
-    @media screen and (min-width: 1200px) {
-        margin-bottom: 50px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
 
-        font-size: 36px;
-        line-height: calc(42 / 36);
-    }
-
+    font-size: 36px;
+    line-height: calc(42 / 36);
+  }
 }
 
 .team__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .team__item {
-    text-align: center;
+  text-align: center;
 
-    background-color: $accessory-color;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: $accessory-color;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-    @media screen and (min-width: 768px) {
-        flex-basis: calc((100% - 30px) /2);
-        max-width: 354px;
-    }
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 30px) / 2);
+    max-width: 354px;
+  }
 
-    @media screen and (min-width: 1200px) {
-        flex-basis: calc((100% - 90px) / 4);
-        max-width: 270px;
-    }
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 90px) / 4);
+    max-width: 270px;
+  }
 }
 
 .team__photo {
-    width: 100%;
+  width: 100%;
 }
 
 .team__meta {
-    padding-top: 30px;
-    padding-bottom: 24px;
+  padding-top: 30px;
+  padding-bottom: 24px;
 
-    @media screen and (min-width: 1200px) {
-        padding-bottom: 30px;
-    }
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 30px;
+  }
 }
 
 .team__name {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(19/16);
-    letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
 
-    color: $main-color;
+  color: $main-color;
 }
 
 .team__job {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(19/16);
-    letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
 
-    color: $contacts-color;
+  color: $contacts-color;
 }
 
 .socials {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 .socials__icon {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 
-    fill: currentColor;
+  fill: currentColor;
 }
 
 .socials__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    color: $social-media-color;
-    transition: background-color $cubic 250ms, color $cubic 250ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: $social-media-color;
+  transition: background-color $cubic 250ms, color $cubic 250ms;
 
-    &:focus,
-    &:hover {
-        color: $accessory-color;
-        background-color: $hover-color;
-    }
+  &:focus,
+  &:hover {
+    color: $accessory-color;
+    background-color: $hover-color;
+  }
 }
