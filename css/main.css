@@ -396,13 +396,17 @@ img {
 
 .hero__title {
   margin-bottom: 30px;
-  padding: 0 150px;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.6153846154;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+}
+@media screen and (min-width: 769px) {
+  .hero__title {
+    padding: 0 150px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
