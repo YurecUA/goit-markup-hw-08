@@ -71,7 +71,6 @@
 
 .hero__title {
   margin-bottom: 30px;
-  padding: 0 150px;
 
   font-weight: 900;
   font-size: 26px;
@@ -80,6 +79,10 @@
   text-transform: uppercase;
 
   color: $accessory-color;
+
+  @media screen and (min-width: 769px) {
+    padding: 0 150px;
+  }
 
   @media screen and (min-width: 1200px) {
     font-size: 44px;
